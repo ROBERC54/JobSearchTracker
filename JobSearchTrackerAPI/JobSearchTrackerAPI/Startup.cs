@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using JobSearchTrackerAPI.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace JobSearchTrackerAPI
 {
@@ -24,6 +26,9 @@ namespace JobSearchTrackerAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<JobSearchTrackerAPIContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("JobSearchTrackerAPIContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

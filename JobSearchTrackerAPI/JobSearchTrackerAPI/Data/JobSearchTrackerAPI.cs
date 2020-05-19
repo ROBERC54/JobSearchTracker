@@ -7,9 +7,9 @@ using JobSearchTrackerAPI.Models;
 
 namespace JobSearchTrackerAPI.Data
 {
-    public class CADFundamentalsWebAPIContext : DbContext
+    public class JobSearchTrackerAPIContext : DbContext
     {
-        public CADFundamentalsWebAPIContext(DbContextOptions<CADFundamentalsWebAPIContext> options)
+        public JobSearchTrackerAPIContext(DbContextOptions<JobSearchTrackerAPIContext> options)
             : base(options)
         {
         }
