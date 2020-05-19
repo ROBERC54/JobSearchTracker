@@ -13,5 +13,11 @@ namespace JobSearchTrackerAPI.Data
             : base(options)
         {
         }
+        public DbSet<DistinctQual> DistinctQual { get; set; }
+        public DbSet<JobDescription> JobDescription { get; set; }
+        public DbSet<Lead> Lead { get; set; }
+        public DbSet<ParentCompany> ParentCompany { get; set; }
+        public DbSet<Qualification> Qualification { get; set; }
+        public DbSet<Recruiter> Recruiter { get; set; }
     }
 }
