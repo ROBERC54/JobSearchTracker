@@ -191,3 +191,4 @@ D:\Source\JobSearchTracker\JobSearchTrackerAPI\JobSearchTrackerAPI\obj\Debug\net
 D:\Source\JobSearchTracker\JobSearchTrackerAPI\JobSearchTrackerAPI\obj\Debug\netcoreapp3.1\Razor\Views\DistinctQuals\Edit.cshtml.g.cs
 D:\Source\JobSearchTracker\JobSearchTrackerAPI\JobSearchTrackerAPI\obj\Debug\netcoreapp3.1\Razor\Views\DistinctQuals\Index.cshtml.g.cs
 D:\Source\JobSearchTracker\JobSearchTrackerAPI\JobSearchTrackerAPI\obj\Debug\netcoreapp3.1\Razor\Views\Recruiters\Roster.cshtml.g.cs
+D:\Source\JobSearchTracker\JobSearchTrackerAPI\JobSearchTrackerAPI\obj\Debug\netcoreapp3.1\Razor\Views\Leads\ViaRecruiter.cshtml.g.cs

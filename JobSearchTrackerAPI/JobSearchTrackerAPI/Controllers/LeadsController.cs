@@ -19,6 +19,23 @@ namespace JobSearchTrackerAPI.Controllers
             _context = context;
         }
 
+        public async Task<IActionResult> ViaRecruiter(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var recruiter = _context.Lead
+                .Where(m => m.RecruiterId == id);
+            if (recruiter == null)
+            {
+                return NotFound();
+            }
+
+            return View(recruiter);
+        }
+
         // GET: Leads
         public async Task<IActionResult> Index()
         {
