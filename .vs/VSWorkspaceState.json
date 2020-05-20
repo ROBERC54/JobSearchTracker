@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\JobSearchTrackerAPI",
+    "\\JobSearchTrackerAPI\\JobSearchTrackerAPI",
+    "\\JobSearchTrackerAPI\\JobSearchTrackerAPI\\Data"
   ],
+  "SelectedNode": "\\JobSearchTrackerAPI\\JobSearchTrackerAPI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

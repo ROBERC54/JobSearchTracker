@@ -4,5 +4,45 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="jumbotron">
+    <h1>ProfessDirect</h1>
+    <p class="lead">Take the Next Step | Connect.</p>
+    <p><a href="https://github.com/ROBERC54/Professional-Directory" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+
+    <div>
+        <a class="btn btn-default"
+           @Html.ActionLink("List of Parent Companies", "Index", "ParentCompanies")<br />
+        <a class="btn btn-default"
+           @Html.ActionLink("List of Recruiters", "Index", "Recruiters")<br />
+        <a class="btn btn-default"
+           @Html.ActionLink("List of Leads", "Index", "Leads")<br />
+        <a class="btn btn-default"
+           @Html.ActionLink("List of Job Descriptions", "Index", "JobDescriptions")<br />
+        <a class="btn btn-default"
+           @Html.ActionLink("List of Qualifications", "Index", "Qualifications")<br />
+        <a class="btn btn-default"
+        @Html.ActionLink("List of Distinct Qualifications", "Index", "DistinctQuals")
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Diving into ProfessDirect</h2>
+        <p>
+            ProfessDirect gives you a powerful, systematic approach to enable job hunters to more expediently assess and target professional relationships that are conducive in light of current market trends.
+        </p>
+        <p><a class="btn btn-default" href="https://github.com/ROBERC54/Professional-Directory">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Enhance your connections</h2>
+        <p>ProfessDirect is a job search management tool that makes it easy to add, remove, and update professional opportunities.</p>
+        <p><a class="btn btn-default" href="https://github.com/ROBERC54/Professional-Directory">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Don't Go Alone</h2>
+        <p>You can easily reach out to contacts; offer your hand in jolly cooperation via built in links to major social media platforms.</p>
+        <p><a class="btn btn-default" href="https://github.com/ROBERC54/Professional-Directory">Learn more &raquo;</a></p>
+    </div>
 </div>
